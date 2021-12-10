@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webtechnológia I. beadandó</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="first.js" charset="utf-8"></script>
+
+</head>
+<body style="background-color: #FEF5E7 ">
+
+    <div class="header">
+        <h1 id="mouseEnter">Leonardo da Vinci</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="1.html">Fő oldal</a>
+        <a href="#" id="link1">Szavazás</a>
+        <a href="https://hu.wikipedia.org/wiki/Leonardo_da_Vinci" target="_blank" id="link3">Forrás</a>
+    </div>
+
+    <div class="form">
+        <h2 align="center"><b>Melyik kép tetszett a legjobban?</b></h2>
+        <form>
+            <table class="tabla">
+                <tr>
+                    <td>Vezetéknév:</td>
+                    <td>
+                        <input type="text" id="vezetekNev" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Keresztnév:</td>
+                    <td>
+                        <input type="text" id="keresztNev" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="text" id="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kor:</td>
+                    <td>
+                        <input type="number" id="kor" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <select multiple id="szavazas">
+                            <option value="lastsupper">Az utolsó vacsora</option>
+                            <option value="monalisa">Mona Lisa</option>
+                            <option value="keresztelo">Keresztelő Szent-János</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <span class="wrapper"> <input type="button" id="validate" value="Szavazás" /> </span>
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p class="footer-text">Leonardo da Vinci</p>
+            <div class="social">
+                <a href="https://www.google.com/search?q=leonardo+da+vinci" target="_blank" class="fa fa-google"></a>
+                <a href="https://www.facebook.com/leonardo.page" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/artistdavinci" target="_blank" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/results?search_query=leonardo+da+vinci" target="_blank" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

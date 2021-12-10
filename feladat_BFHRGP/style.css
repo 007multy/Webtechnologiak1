@@ -1,0 +1,96 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+/* Navigációs ablak stílusa */
+.topnav {
+    overflow: hidden;
+    background-color: #351D23;
+}
+
+    /* Navigációs sáv linkek stílusa */
+    .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        /* Egér rámozgatás utáni stílus */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+
+/* Linkek színei */
+a { 
+    color: #9c3; 
+}
+
+a:hover{
+    color: #769e26;
+    text-decoration: none;
+}
+
+/* Címsorok */
+h1, h2{
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 34px;
+    color: #404040;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+h2 { font-size: 18px; }
+
+.discleamer {
+    text-align: center;
+}
+
+#main {
+    background-color: lightgray;
+    height: 74%;
+}
+
+.card-footer {
+    background-color: black;
+    border-top: dotted;
+    border-color: lightgray;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #351D23;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    flex-basis: 50%;
+    font-size: 18px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.social {
+    text-align: right;
+    flex-basis: 50%;
+    font-size: 25px;
+}
